@@ -1,0 +1,11 @@
+[project]
+name = "mcp-build-client-agent-airbnb-memory"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "mcp[cli]>=1.13.0",
+    "openai>=1.99.9",
+    "streamlit>=1.48.1",
+]
